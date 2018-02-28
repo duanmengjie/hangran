@@ -79,3 +79,15 @@
 .mymenu .active .iconfont,.mymenu .active span{
     color: #28a7e1;
 }
+.to-top{ 
+    display: none; 
+    color: #fff; 
+    background-color: #fff;
+    border:solid 1px #d1d1d1;
+    color: #666666;
+    width: .76rem;
+    height: .76rem;
+    line-height: .76rem;
+    border-radius: 50%;
+    text-align: center;
+}

@@ -44,3 +44,30 @@
 
 23、注册	registered.html
 
+------------------------第2波-------------------------------
+
+1、商城首页 		mall_index.html
+
+2、商品列表		product_list.html
+
+3、列表搜索		product_hot.html
+
+4、确认订单		order.html
+
+5、购物车		shopping_cart.html
+
+6、购物车为空		shopping_no.html
+
+7、商品详情		mall_detail.html
+	
+
+
+
+
+
+
+
+
+
+
+

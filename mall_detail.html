@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link type="text/css" rel="stylesheet" href="css/reset.css" />
+		<link type="text/css" rel="stylesheet" href="iconfont/iconfont.css" />
+		<link type="text/css" rel="stylesheet" href="css/mall_detail.css" />
+		<link type="text/css" rel="stylesheet" href="css/public.css" />
+	</head>
+	<body>
+		<div id="page" class="mall_padding">
+			<div class="pass_head">
+				<a class="icon_youjiantou fl" href="javascript:void(0);">
+					<i class="iconfont icon-zuojiantou-01"></i>
+				</a>
+				<h3 class="head_title">商城</h3>
+				<a class="fr" href="javascript:void(0);">
+					<i class="iconfont icon-xiaoxi"></i>
+				</a>
+			</div>
+			<div class="menu_box">
+				<div class="carousel-image carousel-image1">
+					<div class="carousel_box">
+						<div class="carousel_row">
+							<ul class="menu_main">
+								<li class="menu_row">
+									<a href="#">
+										<img src="img/demo/11.jpg" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="carousel_row">
+							<ul class="menu_main">
+								<li class="menu_row">
+									<a href="#">
+										<img src="img/demo/11.jpg" alt="">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<span class="carousel-num">
+					</span>
+				</div>
+			</div>
+			<div class="detail_break">
+				<h3 class="detail_title">百搭黑色显瘦2017新款春装韩国宽松短款外套铆钉学生韩版棒球服女</h3>
+				<div class="break_sit">
+					<span class="break_price"><em>$</em> 49</span>
+					<span class="break_price2">价格: <del>￥156</del></span>
+					<span class="break_price2">快递: ￥156</span>
+				</div>
+				<a href="#" class="shareit">
+					<i class="iconfont icon-fenxiang"></i>
+				</a>
+			</div>
+			<div class="detail_cont">
+				<img src="img/demo/12.jpg" alt="">
+			</div>
+			<div class="detail_footer">
+				<a class="joinshop" href="#">加入购物车</a>
+				<a class="buynow" href="#">立即购买</a>
+			</div>
+			<a class="to-top"><i class="iconfont icon-001caozuo_fanhuidingbu"></i></a>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/public.js"></script>
+		<script type="text/javascript" src="js/jquery.toTop.min.js"></script>
+		<script type="text/javascript" src="js/index/carousel-image.js"></script>
+		<script>
+		$(function() {
+			$('.to-top').toTop();
+			/*
+			*	菜单左右滑动效果
+			**/ 
+			$('.carousel-image1').CarouselImage({
+				num: $('.carousel-image1 .carousel-num'),
+				width: '100%',
+				height: 340
+			});
+		});
+		</script>
+	</body>
+</html>
