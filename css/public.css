@@ -1,0 +1,81 @@
+.pass_head{
+    width: 100%; 
+    height: .8rem; 
+    line-height: .8rem; 
+    background: #fff; 
+    position: relative;
+}
+.pass_head .iconfont{
+    position: absolute;
+    font-size: .4rem; 
+    color: #000;
+}
+/*.pass_head .iconfont:nth-child(1){
+    left: .3rem;
+}*/
+.pass_head a{
+    display: block;
+}
+.pass_head .icon-yonghubangding-copy,.pass_head .icon-zuojiantou-01{
+    left: .3rem; 
+    top: 0; 
+}
+.pass_head .icon-xiaoxi{
+    right: .3rem; 
+    top: 0; 
+    font-size: .37rem;
+}
+.pass_head .user_name{
+    display: inline-block;
+    color: #28a7e1;
+    font-size: .32rem;
+    line-height: .8rem;
+    position: absolute;
+    left: 0.1rem;
+    top:0;
+}
+.pass_head .icon_xiaoxi{
+    position: absolute;
+    right: .5rem; 
+    top: 0; 
+}
+.pass_head .icon_xiaoxi .iconfont{
+    color: #28a7e1;
+}
+.pass_head h3{
+    display: block; 
+    text-align: center; 
+    line-height: .8rem; 
+    color: #333; 
+    font-weight: normal; 
+    font-size: .34rem; 
+    border-bottom: solid 1px #eaeaea;
+}
+.mymenu{
+    width: 100%;
+    background: #fff;
+    height: 1.1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: solid 1px #c5c5c5;
+}
+.mymenu .mymenu_row{
+    float: left;
+    width: 25%;
+    height: 0.9rem;
+    padding-top: .2rem;
+    text-align: center;
+}
+.mymenu .mymenu_row .iconfont{
+    font-size: .4rem;
+    color: #c8c8c9;
+}
+.mymenu .mymenu_row span{
+    display: block;
+    font-size: .28rem;
+    color: #898989;
+}
+.mymenu .active .iconfont,.mymenu .active span{
+    color: #28a7e1;
+}

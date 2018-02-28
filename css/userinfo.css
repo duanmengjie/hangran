@@ -1,0 +1,163 @@
+body{
+	background: #f6f5fa;
+}
+/*个人信息主页*/
+.list-block{
+	width: 100%;
+	margin-top: .2rem;
+}
+.list-block .item-content{
+	background: #fff;
+	display: block;
+	padding: .1rem 0;
+}
+.list-block .item-content .item-avatar{
+	display: block;
+	padding: .2rem .3rem;
+	border-bottom: solid 1px #e4e4e4;
+	position: relative;
+	height: .5rem;
+	line-height: .5rem;
+}
+.list-block .item-content .item-avatar:nth-last-child(1){
+	border-bottom: 0;
+}
+.list-block .item-content .item-avatar .iconfont:nth-child(1){
+	float: left;
+	font-size: .4rem;
+}
+.list-block .item-content .item-avatar .iconfont:nth-child(3){
+	float: right;
+	font-size: .4rem;
+}
+.list-block .item-content .item-avatar .item-title{
+	position: absolute;
+	left: .6rem;
+	top: 0;
+	color: #333333;
+	font-size: .28rem;
+	line-height: .5rem;
+	padding: .2rem .3rem;
+}
+.list-block .item-content .item-avatar .icon-character-avatar{
+	color: #4cbdc1;
+}
+.list-block .item-content .item-avatar .icon-mingpian{
+	color: #f7ac8c;
+}
+.list-block .item-content .item-avatar .icon-yunongtongqingshurushoujihaoma{
+	color: #f38cb9;
+}
+.list-block .item-content .item-avatar .icon-dizhi{
+	color: #8acef3;
+}
+.head_img{
+	width: .52rem;
+	height: .52rem;
+	position: absolute;
+	right: 0.4rem;
+	top: 0.2rem;
+}
+.head_img img{
+	width: .52rem;
+	height: .52rem;
+	border-radius: .1rem;
+}
+.add_address{
+	color: #29a7e1;
+	font-size: .32rem;
+	position: absolute;
+	right: 0.3rem;
+	top: 0;
+}
+/*收货地址*/
+.no_address{
+	width: 100%;
+	text-align: center;
+	padding-top: 2rem;
+}
+.no_address .address_img{
+	width: 1.48rem;
+	height: 1.8rem;
+	margin: 0 auto;
+}
+.no_address .phone_img{
+	width: 2.46rem;
+	height: 2.52rem;
+	margin: 0 auto;
+}
+.no_address span{
+	display: block;
+	color: #999999;
+	font-size: .28rem;
+	margin-top: .2rem;
+	padding: 0 .2rem;
+}
+.no_address p{
+	display: block;
+	color: #333;
+	font-size: .3rem;
+	margin-top: .2rem;
+	padding: 0 .2rem;
+}
+.address_main{
+	padding-bottom: 1.2rem;
+}
+.address_main,.address_main .address_row a{
+	display: block;
+}
+.address_main .address_row{
+	display: block;
+	background: #fff;
+	height: 1.5rem;
+	margin-bottom: .28rem;
+	padding: 0 0.3rem;
+	position: relative;
+}
+.address_main .address_row .address_name{
+	color: #333333;
+	font-size: .3rem;
+	display: block;
+	height: .4rem; 
+	line-height: .4rem;
+	overflow: hidden;
+	padding-top: .25rem;
+	width: 92%;
+}
+.address_main .address_row .address_cont{
+	color: #999999;
+	font-size: .28rem;
+	display: block;
+	width: 92%;
+	height: .4rem; 
+	line-height: .4rem;
+	overflow: hidden;
+	padding-top: .2rem;
+}
+.address_main .address_row .icon-youjiantou{
+	color: #bbbbbb;
+	font-size: .5rem;
+	position: absolute; 
+	right: .3rem;
+	top: .6rem;
+}
+/*新增地址*/
+.pass_main{ width: 100%; background: #fff;}
+.pass_main li{display: block; height: .8rem; border-bottom: solid 1px #e4e4e4; line-height: .8rem; position: relative; margin-top: .2rem;}
+.pass_main li a{display: block; height: .8rem;}
+.pass_main li .pass_title{font-size: .28rem; color: #333333; position: absolute; left: .3rem; text-align: left; display: inline-block; width: 1rem;}
+.pass_main li .pass_title2{width: 100%; font-size: .28rem; color: #666666; position: absolute; left: 0; display: inline-block; padding-left: .3rem;}
+.pass_main li .pass_title3{font-size: .28rem; color: #333333; position: absolute; left: .3rem; text-align: left; display: inline-block; width: 1.2rem;}
+.pass_main li .login_inpt{display: block; font-size:.28rem; background: none; width: 100%; color: #999; text-indent: 1.2rem; line-height: .8rem; border:0;}
+.pass_main li .login_inpt2{display: block; font-size:.28rem; background: none; width: 100%; color: #999; text-indent: 1.6rem; line-height: .8rem; border:0;}
+.agree{color: #666666; font-size: .28rem; display: block; margin: .3rem 0; position: relative; padding-left: .3rem;}
+.agree #regis{margin-right: .15rem; vertical-align: middle; opacity: 0;}
+.agree .iconfont{position: absolute; left: .3rem; top: 0; font-size: .32rem; color: #cdcccc;}
+.agree .icon-radio{color: #29a7e1;}
+.agree em{font-style: normal; color: #009ff0;}
+
+
+
+
+
+

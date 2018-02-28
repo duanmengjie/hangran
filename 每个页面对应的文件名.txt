@@ -1,0 +1,46 @@
+1、业务办理查询	business_manage.html
+
+2、电子账单	etc_bills.html
+
+3、缴费记录	payment_records.html
+
+4、充值记录	recharge_records.html
+
+5、基本信息	userinfo.html
+
+6、收货地址列表 address.html
+
+7、新增地址	address_new.html
+
+8、修改昵称	name_edit.html
+
+9、已绑定手机号	phone_edit.html
+
+10、修改手机号	phone_edit2.html
+
+11、账户余额	account.html
+
+12、充值	recharge_list.html
+
+13、服务缴费	service_payment.html       
+
+14、缴费成功	payment_success.html
+
+15、客户编号缴费 num_payment.html
+
+16、缴费下一步  payment_next.html
+
+17、已绑定客户	fast_payment.html	
+
+18、历史燃气用量 historical_usage.html
+
+19、燃气用量	ranqi_usage.html
+
+20、登录	login.html
+
+21、修改密码	password_change.html
+
+22、找回密码	password_find.html
+
+23、注册	registered.html
+
